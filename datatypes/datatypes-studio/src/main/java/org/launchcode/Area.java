@@ -1,7 +1,6 @@
 package org.launchcode;
 
 import java.util.Scanner;
-import java.lang.Math;
 public class Area {
    public static void main(String[] args) {
 
@@ -14,5 +13,7 @@ public class Area {
       double area = Circle.getArea(radius);
 
       System.out.println("The area of a circle of radius " + radius + " is: " + area);
+
+      input.close();
    }
 }
