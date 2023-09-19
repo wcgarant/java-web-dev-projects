@@ -25,6 +25,22 @@ public class MenuItem {
         this.category = category;
     }
 
+    public double getPrice() {
+        return price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public boolean isNew() {
+        return isNew;
+    }
+
     public void setNew(boolean aNew) {
         isNew = aNew;
     }

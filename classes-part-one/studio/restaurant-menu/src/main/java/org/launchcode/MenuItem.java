@@ -1,5 +1,3 @@
-import javax.xml.namespace.QName;
-
 public class MenuItem {
     private String name;
     private double price;
@@ -12,6 +10,26 @@ public class MenuItem {
         this.price = price;
         this.description = description;
         this.category = category;
+        this.newItem = newItem;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public void setNewItem(boolean newItem) {
         this.newItem = newItem;
     }
 
@@ -33,5 +51,12 @@ public class MenuItem {
 
     public boolean isNewItem() {
         return newItem;
+    }
+
+    public static class Main {
+
+        public static void main(String[] args) {
+
+        }
     }
 }
